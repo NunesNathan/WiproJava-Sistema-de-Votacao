@@ -46,6 +46,7 @@ public class Principal {
     } while (option != 3);
 
     scan.close();
+    gv = new GerenciamentoVotacao();
   }
 
   private static void novaPessoaCandidata(GerenciamentoVotacao gv, Scanner scan) {

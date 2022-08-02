@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GerenciamentoVotacao {
-  private static ArrayList<PessoaCandidata> pessoasCandidatas = new ArrayList<PessoaCandidata>();
-  private static ArrayList<PessoaEleitora> pessoasEleitoras = new ArrayList<PessoaEleitora>();
+  private ArrayList<PessoaCandidata> pessoasCandidatas = new ArrayList<PessoaCandidata>();
+  private ArrayList<PessoaEleitora> pessoasEleitoras = new ArrayList<PessoaEleitora>();
   private ArrayList<String> cpfComputado = new ArrayList<String>();
   private int totalVotos;
 
